@@ -1,0 +1,6 @@
+Did not account for scenarios where 
+[1] Payload is not valid JsonArray, 
+[2] Payload is empty JsonArray, 
+[3] Payload has JsonObjects that have null fields, 
+[4] Payload has JsonObjects that have different field names
+[5] Payload has JsonObjects that have field values that are diff from expected (e.g. String instead of int)
